@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Picture Puzzle Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">	
+	<a href="#" class="button start">Start</a>
+	<div class="box">	
+		<div class="me full"></div>
+	</div>
+	<div class="pre_img">	
+		<li data-bid="0"><img src="https://wallpaperaccess.com/full/5707282.jpg"></li>
+		<li data-bid="1"><img src="https://i.ytimg.com/vi/xswzx5TJV6w/maxresdefault.jpg"></li>
+		<li data-bid="2"><img src="https://bvwnews.com/wp-content/uploads/2019/05/e57743ccf31dbd4187699e61c4c553aa6961ffc2_hq-900x506.jpg"></li>
+		<li data-bid="3" id="upfile1"><img src="https://image.ibb.co/cXSomR/upload1.png" /></li>
+		<input type="file" name="image" id="file1" style="display: none">
+	</div>
+	<div align="center"><a href="#" class="button reset" align="center">Reset</a></div>
+</div>
+
+<div class="cover" >
+	<div class="score">
+		<p id="scr_head"> &#9875 Puzzel Solved &#9875</p>
+		<p id="scr_time"> Time : <span id="min">00</span> Min <span id="sec">00</span> Sec</p>
+		<p id="scr_moves"> Moves : <span id="moves"></span></p>
+		<p class="i">developed by Vinit Kumbhar </p>
+		<div class="button OK">OK</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
